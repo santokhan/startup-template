@@ -1,0 +1,105 @@
+main {
+    background: #fff;
+}
+
+main a {
+    color: #6c757d;
+    font-size: 0.75rem;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+main a:hover {
+    color: #198754;
+}
+
+.pt-175 {
+    padding-top: 1.75rem;
+}
+
+.pr-175 {
+    padding-right: 1.75rem;
+}
+
+.pb-175 {
+    padding-bottom: 1.75rem;
+}
+
+.pl-175 {
+    padding-left: 1.75rem;
+}
+
+.gradient-line {
+    width: 100%;
+    background: linear-gradient(to right, #7a2099, #13a9ec, #28e03e);
+}
+
+.gradient-back {
+    background: url("/image/testimonial-img.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.gradient-back>div {
+    background: linear-gradient(to top, rgba(236, 70, 17, 1), rgba(197, 90, 102, 0.5), rgba(239, 84, 81, 0.5));
+}
+
+.gradient-text {
+    background: linear-gradient(to right, #7a2099, #13a9ec, #28e03e);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.style-hunter-text {
+    color: #8a3ab9;
+    font-size: 1.375rem;
+    font-weight: 700;
+}
+
+.amazing-shot {
+    background: url("/image/couple.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.amazing-shot>div {
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.photo-shot {
+    background: url("/image/photo-shot.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.photo-shot-man {
+    background: url("/image/photo-shot-man.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.camera {
+    background: url("/image/camera.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.video-box {
+    position: relative;
+    width: 100%;
+    height: 53vw;
+}
+
+@media (min-width:1200px) {
+    .video-box-xl {
+        position: relative;
+        width: 100%;
+        height: 425px;
+    }
+}

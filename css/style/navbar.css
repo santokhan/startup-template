@@ -1,0 +1,48 @@
+[data-setname="navbar"] {
+    background: #fff;
+    height: 85px;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+[data-setname="navbar"] .navbar-brand {
+    padding: 0;
+}
+
+[data-setname="navbar"] .navbar-brand span {
+    font-size: 2rem;
+    line-height: 36px;
+    margin: 0;
+}
+
+[data-setname="navbar"] ul li {
+    padding: 1.5rem 1rem;
+    font-weight: 600;
+}
+
+[data-setname="navbar"] ul li:hover {
+    background: #1a0e36;
+    transition: background-color 0.25s ease-out;
+}
+
+[data-setname="navbar"] ul li:hover a {
+    color: #fff !important;
+    transition: color 0.4s ease-in-out;
+}
+
+[data-setname="navbar"] .navbar-expand {
+    display: block;
+    position: absolute;
+    top: 58px;
+    left: -12px;
+    width: 100vw;
+    /* margin-left: -8px; */
+    z-index: 9;
+    background: #fff;
+}
+
+[data-setname="navbar"] .navbar-expand ul {
+    display: flex !important;
+    flex-direction: column;
+}

@@ -1,0 +1,19 @@
+[data-setname="topbar"] {
+    background: #1a0e36;
+}
+
+.topbar-collapse {
+    display: block !important;
+    position: absolute !important;
+    top: 32px;
+    left: 0;
+    z-index: 10;
+    background: #1a0e36;
+}
+
+@media (min-width:1200px) {
+    [data-setname="topbar"] {
+        height: 36px;
+        overflow: hidden;
+    }
+}
